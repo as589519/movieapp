@@ -1,4 +1,4 @@
-(function ($) {
+(function ($)  { 
 // ALL YOUR CODE GOES AFTER THIS LINE!  Don't delete the very final line, though!
 
 
@@ -7,6 +7,12 @@
 
     // remove any already-existing results from results-area
     $('.results-area h3').remove();
+    $('.results-area p').remove();
+    $('.results-area br').remove();
+    $('.results-area img').remove();
+    $('.results-area a').remove();
+
+
 
 
     // if the search button was clicked, store the text from the search box
@@ -39,7 +45,7 @@ function runSearch(userText){
       $('.results-area').append('<h3>' + movie.Title + '</h3>');
       $('.results-area').append('<p>' + movie.Year + '</p>');  
       $('.results-area').append('<img src="'+movie.Poster+'">'); 
-      $('.results-area').append('<a href="http://www.imdb.com/title/'+movie.imdbDB +'">IMDB</a>'); 
+      $('.results-area').append('<br><a href="http://www.imdb.com/title/'+movie.imdbDB +'">IMDB</a>'); 
                                 
       $('.results-area').append('</div>');
 

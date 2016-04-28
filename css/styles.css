@@ -1,67 +1,125 @@
 
 
+body{
+    background-image: url(../Images/moviesearch.jpg); 
+} 
+
 .my-container{
-    width: 90%;
-    margin 0px auto;
-    font-size:18px;
+  width: 90%;
+  height: 170px; 
+  margin 0px auto; 
+  margin-left: auto;
+  margin-right: auto; 
+  font-size:18px;
   font-weight:400;
   max-width:100%;
   max-height:100%;
-  background:#efefef;
   background-size:cover;
-  font-family: 'Poiret One', cursive;
   text-align: center; 
-    
-    
+  color: #f44336; 
+  background-color: hsla(0, 100%, 90%, 0.3);
+ 
+  
+ 
 } 
 
-.titlewrapper{text-align: center; 
+.titlewrapper{ 
+    text-align: center; 
     font-family: 'Pacifico', sans-serif;
     color:#f44336;
+    font-size: 30px; 
+     
 } 
 
 .search-button{
-  width:20%; 
+  width:25%; 
+  height: 70px; 
   margin:0 auto;
   padding:20px;
   border:none;
   outline:none;
-  background:#f44336;  
+  background:#1E90FF; 
   font-size:18;
   color:#fff;
-  transition:all .4s ease; 
+  transition:all .2s ease; 
   font-family: 'Fjalla One', sans-serif;
   opacity: .7;
   text-align: center; 
- 
-    
-    
-    color: orange; 
+  color: white;
+  margin-top: 3px; 
+   
+  
 } 
-
- 
-} 
-
-h1{
-  font-family: 'Pacifico', sans-serif;
-  display:block;
-  text-align:center;
-  font-size:20px;
-  font-weight:900px;
-  margin-bottom:30px;
-  color:#f44336;
-  background-color: white;
-  opacity: .3;
-
-}   
-
+  
 h2{
-    color:#f44336;
-    font-family: 'Pacifico'; 
-} 
-h3{color: orange;
-    font-family: sans-serif; 
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px; 
+    text-align: center; 
 } 
 
-p{color: black; 
+
+h3{
+    color: #b3b3b3; 
+    font-family:'Fjalla One', sans-serif;
+} 
+
+p{
+    color:#f44336;
+    font-family: 'Fjalla One', sans-serif;
+
+} 
+
+.results-area{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 30px; 
+    color: #f44336; 
+    background-color: hsla(0, 100%, 90%, 0.3);
+    margin-left: 45%;
+    text-align: center; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    width: auto; 
+    
+    
+
+   
+   
+    
+} 
+.search-area{
+    padding-top: 50px;
+    
+} 
+
+.pure-u-1-3{
+    padding-top: 40px;
+    font-size: 20px; 
+    
+   
+} 
+
+p{
+    color: white; 
+} 
+
+
+img{
+    text-align: center; 
+    
+} 
+
+.pure-form{
+    margin-left: 400px; 
+    
+} 
+
+input.search-box{
+    
+    height: 60px; 
+    width:300px; 
+} 
+
+a{
+    color: #1E90FF; 
+    
 } 
